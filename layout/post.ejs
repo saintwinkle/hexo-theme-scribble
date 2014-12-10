@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title><%= page.title %> - <%= config.title %></title>
+    <%- partial('_partial/head') %>
+  </head>
+  <body>
+    <%- partial('_partial/header') %>
+    <div id='container'>
+      <%- partial('_partial/links') %>
+      <%- partial('_partial/post_pagination') %>
+      <div class="content">
+        <section class='post'>
+          <h1>
+            <div class='date'><%- date(page.date, config.date_format) %></div>
+            <%= page.title %>
+          </h1>
+          <%- page.content %>
+          <%- partial('_partial/signoff') %>
+        </section>
+      </div>
+      <% if (theme.disqus_shortname) { %>
+        <%- partial('_partial/disqus') %>
+      <% } %>
+      <%- partial('_partial/links') %>
+    </div>
+    <%- partial('_partial/footer') %>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<section class="paging">
+  <% if (page.prev) { %>
+    <div class="left">
+      <a href="<%- url_for(page.prev.path) %>">
+        ‹
+      </a>
+    </div>
+  <% } %>
+  <% if (page.next) { %>
+    <div class="right">
+      <a href="<%- url_for(page.next.path) %>">
+        ›
+      </a>
+    </div>
+  <% } %>
+</section>

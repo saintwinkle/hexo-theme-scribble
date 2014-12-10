@@ -1,0 +1,5 @@
+<div class="block">
+  <% for (var i in theme.menu) { %>
+    <a class="main" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+  <% } %>
+</div>
