@@ -1,20 +1,21 @@
 .post pre,
 .post .highlight {
-  background: #ddd;
-  margin: 0 0 5px 0;
-  padding: 10px 15px;
+  background: #2d2d2d;
+  padding: 1em;
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
   border-radius: 5px;
   overflow: auto;
-  color: #4d4d4c;
-  line-height: 22.400000000000002px;
+  color: #ccc;
+  line-height: 16px;
 }
 .post .highlight .gutter pre,
+.post .highlight .code pre,
+.post .highlight pre,
 .post .gist .gist-file .gist-data .line-numbers {
   color: #666;
-  font-size: 0.85em;
+  font-size: 13px;
 }
 .post pre,
 .post code {
@@ -44,10 +45,18 @@
   padding: 0;
 }
 .post .highlight figcaption {
-  font-size: 0.85em;
-  color: #8e908c;
+  font-size: 13px;
+  color: #999;
   line-height: 1em;
   margin-bottom: 1em;
+}
+.post .highlight figcaption:before,
+.post .highlight figcaption:after {
+  content: "";
+  display: table;
+}
+.post .highlight figcaption:after {
+  clear: both;
 }
 .post .highlight figcaption a {
   float: right;
@@ -57,57 +66,11 @@
   padding-right: 20px;
 }
 .post .highlight .line {
-  height: 22.400000000000002px;
-}
-.post .gist {
-  margin: 0 -20px;
-  border-style: solid;
-  border-color: #ddd;
-  border-width: 1px 0;
-  background: #ddd;
-  padding: 15px 20px 15px 0;
-}
-.post .gist .gist-file {
-  border: none;
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
-  margin: 0;
-}
-.post .gist .gist-file .gist-data {
-  background: none;
-  border: none;
-}
-.post .gist .gist-file .gist-data .line-numbers {
-  background: none;
-  border: none;
-  padding: 0 20px 0 0;
-}
-.post .gist .gist-file .gist-data .line-data {
-  padding: 0 !important;
-}
-.post .gist .gist-file .highlight {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-.post .gist .gist-file .gist-meta {
-  background: #ddd;
-  color: #8e908c;
-  font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-shadow: 0 0;
-  padding: 0;
-  margin-top: 1em;
-  margin-left: 20px;
-}
-.post .gist .gist-file .gist-meta a {
-  color: #258fb8;
-  font-weight: normal;
-}
-.post .gist .gist-file .gist-meta a:hover {
-  text-decoration: underline;
+  height: 16px;
 }
 pre .comment,
 pre .title {
-  color: #8e908c;
+  color: #999;
 }
 pre .variable,
 pre .attribute,
@@ -121,7 +84,7 @@ pre .html .doctype,
 pre .css .id,
 pre .css .class,
 pre .css .pseudo {
-  color: #c82829;
+  color: #f2777a;
 }
 pre .number,
 pre .preprocessor,
@@ -129,12 +92,12 @@ pre .built_in,
 pre .literal,
 pre .params,
 pre .constant {
-  color: #f5871f;
+  color: #f99157;
 }
 pre .class,
 pre .ruby .class .title,
 pre .css .rules .attribute {
-  color: #718c00;
+  color: #9c9;
 }
 pre .string,
 pre .value,
@@ -142,10 +105,10 @@ pre .inheritance,
 pre .header,
 pre .ruby .symbol,
 pre .xml .cdata {
-  color: #718c00;
+  color: #9c9;
 }
 pre .css .hexcolor {
-  color: #3e999f;
+  color: #6cc;
 }
 pre .function,
 pre .python .decorator,
@@ -155,9 +118,9 @@ pre .ruby .title .keyword,
 pre .perl .sub,
 pre .javascript .title,
 pre .coffeescript .title {
-  color: #4271ae;
+  color: #69c;
 }
 pre .keyword,
 pre .javascript .function {
-  color: #8959a8;
+  color: #c9c;
 }

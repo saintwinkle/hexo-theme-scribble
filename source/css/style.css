@@ -275,6 +275,18 @@ section.post {
     section.post blockquote:hover {
       color: #454545; }
 
+pre {
+  word-wrap: break-word;
+  color: #eee;
+  background: #29281e;
+  padding: 1em;
+  border-radius: 5px;
+  width: 100%;
+  line-height: 1.2em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 .signoff {
   margin-top: 30px; }
   .signoff img {
@@ -298,6 +310,11 @@ section.post {
 iframe.sample {
   width: 100%;
   border: 1px solid #ccc; }
+
+figure {
+  margin: 0.75em 0; }
+  figure figcaption {
+    font-size: 16px; }
 
 #page-nav {
   background: #fff;

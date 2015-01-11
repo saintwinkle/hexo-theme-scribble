@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title><%= page.title %> - <%= config.title %></title>
+    <title><%= page.title %> - <%= theme.title %></title>
     <%- partial('_partial/head') %>
   </head>
   <body>
@@ -8,7 +8,7 @@
     <div id='container'>
       <%- partial('_partial/links') %>
       <%- partial('_partial/post_pagination') %>
-      <div class="content">
+      <div class='content'>
         <section class='post'>
           <h1>
             <div class='date'><%- date(page.date, config.date_format) %></div>

@@ -1,8 +1,20 @@
+title: Scribble
+description: A Hexo theme. Because I scribble.
+
 menu:
   Home: /
   About: /about
+  Email: mailto:saintwinkle@gmail.com
   Github: https://github.com/saintwinkle
+  RSS: /atom.xml
+
 rss: /atom.xml
-signoff: Twinkle
+
+# your name
+signoff: Scribble
+
+# disqus comment thread for post header options ( leave blank if unwanted )
 disqus_shortname: 
+
+# set tracking, UA-XXXX-Y
 google_analytics: 

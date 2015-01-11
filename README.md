@@ -14,31 +14,37 @@ $ git clone https://github.com/saintwinkle/hexo-theme-scribble.git themes/scribb
 
 Modify `theme` setting in `_config.yml` to `scribble`.
 
-### Update
+### Dependencies
 
-``` bash
-cd themes/scribble
-git pull
-```
+Follow the guide: https://github.com/hexojs/hexo-generator-feed
 
 ## Configuration
 
 ``` yml
+title: 
+description: 
 menu:
   Home: /
   About: /about
+  Email: mailto:saintwinkle@gmail.com
   Github: https://github.com/saintwinkle
+  RSS: /atom.xml
+
 rss: /atom.xml
-signoff: 
+signoff: Scribble
 disqus_shortname: 
 google_analytics: 
 ```
 
-- **menu** - Navigation menu
-- **rss** - RSS link
-- **signoff** - Your sign
-- **disqus_shortname** - Disqus shortname
-- **google_analytics** - Google Analytics ID
+- __menu__ - Navigation menu
+- __rss__ - RSS link
+- __signoff__ - Your name
+- __disqus_shortname__ - Disqus shortname
+- __google_analytics__ - Google Analytics ID
+
+## Warning
+
+The theme __DOES NOT__ totally fit all features in Hexo.
 
 ## More
 
