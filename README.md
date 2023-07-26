@@ -7,7 +7,7 @@ Another Hexo theme migrated from a Jekyll theme [Scribble](https://github.com/ch
 ### Install
 
 ``` bash
-$ git clone https://github.com/dzzxjl/hexo-theme-scribble.git themes/scribble
+$ git clone https://github.com/saintwinkle/hexo-theme-scribble.git themes/scribble
 ```
 
 ### Enable

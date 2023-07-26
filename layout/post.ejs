@@ -14,6 +14,7 @@
             <div class='date'><%- date(page.date, config.date_format) %></div>
             <%= page.title %>
           </h1>
+          
           <% if (page.categories && page.categories.length > 0){ %>
             <font class="categories">
             &#8226; 分类:
@@ -35,7 +36,8 @@
             </font>
           <% } %>
           <hr>
-          
+
+
           <%- page.content %>
           <%- partial('_partial/signoff') %>
         </section>
