@@ -1,10 +1,10 @@
 .post pre,
 .post .highlight {
-  background: #2d2d2d;
+  background: #fff785;
   padding: 1em;
   border-style: solid;
   border-color: #ddd;
-  border-width: 1px 0;
+  border-width: 1px;
   border-radius: 5px;
   overflow: auto;
   color: #ccc;
@@ -18,12 +18,14 @@
   font-size: 13px;
 }
 .post pre,
+code {
+  border-radius: 0.2em;
+}
 .post code {
   font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
 }
 .post code {
-  background: #eee;
-  text-shadow: 0 1px #fff;
+  background: #bbcee9;
   padding: 0 0.3em;
 }
 .post pre code {
@@ -36,11 +38,13 @@
   margin: 0;
   padding: 0;
 }
+
 .post .highlight table {
+  border: none;
   margin: 0;
   width: auto;
 }
-.post .highlight td {
+.post .highlight th td {
   border: none;
   padding: 0;
 }
@@ -124,3 +128,4 @@ pre .keyword,
 pre .javascript .function {
   color: #c9c;
 }
+pre

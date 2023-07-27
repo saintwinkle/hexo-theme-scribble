@@ -9,11 +9,14 @@ body {
   color: #303030;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 19px;
   padding: 0;
   margin: 0; }
 
+table, th, td {
+  border: 1px solid #fff785;
+}
 #go-back-home {
   margin: 40px 0 0; }
   #go-back-home:hover {
@@ -138,7 +141,7 @@ footer {
 
 a, .as-link {
   text-decoration: none;
-  color: #269;
+  color: #bf1a3c;
   display: inline-block;
   vertical-align: baseline;
   zoom: 1;
